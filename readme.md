@@ -1,0 +1,1 @@
+This is the Landing Page assignment from the Odin Project foundations course.
