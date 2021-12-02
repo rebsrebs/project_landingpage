@@ -11,12 +11,22 @@ body{
 
 }
 
+/* Navbar and Hero */
+
 .nav, .copyright{
     display:flex;
     align-items:center;
     justify-content: space-around;
     background-color:#1F2937;
     color:white;
+}
+
+ul{
+    display:flex;
+    text-decoration:none;
+    list-style-type: none;
+    gap:15px;
+    
 }
 
 
@@ -28,10 +38,17 @@ body{
     align-items: start;
    padding:50px;
    color:white;
-  
-    
-
 }
+
+
+.footercall, .logo{
+    font-size:24px;
+    font-weight:800;
+    color:#F9FAF8;
+}
+
+
+
 
 .awesomecontainer{
     display:flex;
@@ -41,26 +58,15 @@ body{
     gap: 15px;
 }
 
+/*some random info*/
 
 
-.footercall, .logo{
-    font-size:24px;
-    font-weight:800;
-    color:#F9FAF8;
-}
 
 .thor{font-size:24px;
 font-weight:800;
 color:#1F2937;
 align-self: flex-end;}
 
-ul{
-    display:flex;
-    text-decoration:none;
-    list-style-type: none;
-    gap:15px;
-    
-}
 
 
 
@@ -81,6 +87,7 @@ button{background-color: #3882F6 ;
     border-radius: 8px;
     color:white;
     border-style:none;
+    height:30px;
 }
     
 
@@ -89,6 +96,10 @@ button.footerbutton{
     border-color: white; 
     border-width: 1px;
     border-style:solid;
+    text-align: center;
+    align-self: center;
+    
+
 }
 
 
@@ -148,7 +159,6 @@ flex-basis:auto;
 
 .footeraction{
     display: flex;
-    flex-direction: column;
     width:800px;
     background-color:#3882F6;
     padding:30px 80px;
@@ -156,10 +166,22 @@ flex-basis:auto;
     margin-bottom:50px;
     justify-content: space-between;
     align-self: center;
-
 }
 
-.footertext{align-self:flex-end;}
+.footeractionleft{margin-left:0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footercall{
+    margin:0px;
+    padding:0px;
+}
+
+.footertext{
+    margin:0px;
+    padding:0px;
+}
 
 .footerbottom{
     display: flex;
