@@ -7,7 +7,12 @@ body{
     justify-content: center;
     align-content: center;
     font-family:Verdana, Tahoma, sans-serif;
-    background-color: white;
+    background-color: #84a818;
+    padding:0px;
+    margin:0px;
+    color:
+    #f7c997;
+    
 
 }
 
@@ -17,8 +22,9 @@ body{
     display:flex;
     align-items:center;
     justify-content: space-around;
-    background-color:#1F2937;
-    color:white;
+    background-color:#a87118;
+    color:#f7c997
+    ;
 }
 
 ul{
@@ -29,25 +35,31 @@ ul{
     
 }
 
+.herotext, .illustration{font-size:larger;}
 
 .hero{
-    background-color:#1F2937;
+    background-color:#a87d18;
     display:flex;
     justify-content: center;
     gap:20px;
     align-items: start;
    padding:50px;
-   color:white;
+   color:#f7c997
+   ;
+}
+
+.hero img{border-radius: 8px;
+border-color:#f797f4;
+border-width: 5px;
+border-style:solid;
 }
 
 
 .footercall, .logo{
     font-size:24px;
     font-weight:800;
-    color:#F9FAF8;
+    color:#f28016;
 }
-
-
 
 
 .awesomecontainer{
@@ -56,6 +68,7 @@ ul{
     align-items:flex-start;
     width:340px;
     gap: 15px;
+    
 }
 
 /*some random info*/
@@ -64,7 +77,7 @@ ul{
 
 .thor{font-size:24px;
 font-weight:800;
-color:#1F2937;
+color:#fcebd9;
 align-self: flex-end;}
 
 
@@ -74,40 +87,52 @@ h1{
     font-size:48px;
     font-weight:bold;
     margin:0px;
+    text-shadow:-2px 2px #a87118;
 }
 
 
-.footertext, .herotext{
+.footertext{
     font-size:18px;
-    color:#E5E7EB;
+    color:#f28016;
 }
 
-button{background-color: #3882F6 ;
+.herotext{
+    color:#fcebd9;
+}
+
+button{background-color: #f797f4 ;
     padding:5px 25px;
     border-radius: 8px;
-    color:white;
+    color:#07f7cb;
     border-style:none;
     height:30px;
+    text-align: center;  
 }
     
 
 
 button.footerbutton{
-    border-color: white; 
+    border-color:#07f7cb;
     border-width: 1px;
     border-style:solid;
-    text-align: center;
-    align-self: center;
-    
-
+    align-self: center;   
 }
+
+
+button:hover{
+    background-color:#ed8f6d;
+}
+
 
 
 .illustrationcontainer{
    display:flex;
    justify-content: center;
    gap:30px;
-   padding-bottom:50px;
+   padding: 50px 0px;
+   flex-wrap: wrap;
+   background-color: #a89518;
+   color:#fcebd9;
    
 }
 
@@ -115,8 +140,9 @@ button.footerbutton{
     display:flex;
     flex-direction: column;
     gap: 20px;
-    text-align: center;
-    max-width:150px;
+    text-align: left;
+    max-width:175px;
+
    
     
 }
@@ -124,11 +150,11 @@ button.footerbutton{
 
 
 .quotebanner{
-    background-color: #E5E7EB;
+    
     font-size:36px;
     font-style: italic;
     font-weight:lighter;
-    color:#1F2937;
+    color:#fcebd9;
     display: flex;
     flex-direction: column;
 flex-grow:1;
@@ -136,42 +162,65 @@ flex-shrink:1;
 flex-basis:auto;
     margin:0px;
   align-items: center;
-  padding:80px 250px;
-}
+  padding:50px 250px;
+  background-color:#a3a818;}
 
 .rounded{
-    border-color: blue;
-    border-width: 1px;
+    border-color: gold;
+    border-width: 3px;
     border-style: outset;
     border-radius: 8px;
+    border-style:solid;
 
 }
+
+.illustration p{margin:0px;}
 
 .somerandominfo{
     display: flex;
-    align-self: center;
+    flex-direction:column;
     font-size:36px;
     font-weight:bolder;
-    color:#1F2937;
+    color:#ede382;
     padding-top:30px;
     padding-bottom:30px;
+    background-color: #a88918;
+    width:100%;
+    align-items:center;
+    text-shadow: -1px 1px #07f7cb;
+    
 }
 
 .footeraction{
     display: flex;
-    width:800px;
-    background-color:#3882F6;
+    width:60%;
+    min-width: 500px;
+    background-color:#ede382;
     padding:30px 80px;
-    margin-top:50px;
-    margin-bottom:50px;
+  margin:50px 0px;
     justify-content: space-between;
     align-self: center;
+    align-items:center;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color:#f7c997;
+    border-style:solid;
+   
 }
 
 .footeractionleft{margin-left:0px;
     display: flex;
     flex-direction: column;
+    gap:2px;
+    width:80%;
+ 
+    
 }
+
+.myth{
+    color:#ede382;
+}
+
 
 .footercall{
     margin:0px;
@@ -181,6 +230,7 @@ flex-basis:auto;
 .footertext{
     margin:0px;
     padding:0px;
+  
 }
 
 .footerbottom{
@@ -190,12 +240,24 @@ flex-basis:auto;
 
 .quotetext{
     font-style:italic;
-    color:#1F2937;
+    color:#fcebd9;
     font-size:36px;
+}
+
+.footnotes {
+background-color: #73a818;
+padding:10px;
+font-size:x-small;
 }
 
 .copyright{
     padding:20px;
+    background-color: #41a818;
 }
 
+a, li{color:#07f7cb;
+    }
 
+ a:hover, .nav li:hover{color:blueviolet;}
+
+ sup { vertical-align: top; font-size: 0.6em; }
